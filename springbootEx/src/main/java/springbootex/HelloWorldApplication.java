@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 
 /*
  * @SpringBootApplication 
- * == (@SpringBootConfiguration(alias for @Configuration) + @ComponentScan + @AutoConfiguration) <-- 원래 붙이는 것.(메타 anotaion)
+ * == (@SpringBootConfiguration(alias for @Configuration) + @ComponentScan + @EnableAutoConfiguration) <-- 원래 붙이는 것.(메타 anotaion)
  * --> 결론은 @SpringBootApplication 만 붙이면 된다.
  */
 @SpringBootApplication(scanBasePackages = {})
